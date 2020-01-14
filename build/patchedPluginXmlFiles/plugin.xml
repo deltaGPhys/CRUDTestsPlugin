@@ -1,0 +1,19 @@
+<idea-plugin>
+  <version>1.0-SNAPSHOT</version>
+  <change-notes>
+      Add change notes here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
+  <idea-version since-build="192.6817" until-build="192.*"/>
+  <id>xyz.sbgtools.CRUDtests</id>
+  <name>CRUDTests</name>
+  <vendor email="jgates@sbgbook.xys" url="http://www.sbgbook.xyz">SBGTools, LLC</vendor>
+  <description>
+    Medium description for test type stuff and things
+    </description>
+  <extensions defaultExtensionNs="com.intellij"/>
+  <actions>
+    <action id="CRUDTests" class="CRUDTests" text="Create CRUD Tests" description="Generate simple CRUD Tests with Mockito and MockMVC">
+      <add-to-group group-id="GenerateGroup" anchor="first"/>
+    </action>
+  </actions>
+</idea-plugin>

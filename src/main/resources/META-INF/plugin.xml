@@ -1,0 +1,27 @@
+<idea-plugin>
+    <id>xyz.sbgtools.CRUDtests</id>
+    <name>CRUDTests</name>
+    <vendor email="jgates@sbgbook.xys" url="http://www.sbgbook.xyz">SBGTools, LLC</vendor>
+
+    <description><![CDATA[
+    Medium description for test type stuff and things
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="CRUDTests" class="CRUDTests" text="Create CRUD Tests"
+                description="Generate simple CRUD Tests with Mockito and MockMVC">
+            <add-to-group group-id="GenerateGroup" anchor="first"/>
+        </action>
+    </actions>
+</idea-plugin>
