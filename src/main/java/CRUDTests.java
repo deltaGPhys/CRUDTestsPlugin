@@ -11,7 +11,7 @@ public class CRUDTests extends AnAction {
 
     @Override
     public void actionPerformed(@NotNull AnActionEvent e) {
-        // Using the event, implement an action. For example, create and show a dialog.
+
     }
 
 }
